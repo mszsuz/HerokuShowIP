@@ -1,1 +1,1 @@
-web: gunicorn mytestrepository:start --log-file -
+web: gunicorn start:start --log-file -
