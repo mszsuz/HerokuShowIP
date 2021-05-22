@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def main_route():
-    return '%s' % \
+    return '<html>%s</html>' % \
            (request.headers.get('X-Forwarded-For'))
 
 
